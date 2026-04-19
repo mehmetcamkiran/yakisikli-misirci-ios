@@ -15,7 +15,7 @@ jobs:
       - name: Build Archive
         run: |
           xcodebuild archive \
-            -project YakisikliMisirci/YakisikliMisirci.xcodeproj \
+            -project YakisikliMisirci.xcodeproj \
             -scheme YakisikliMisirci \
             -archivePath YakisikliMisirci.xcarchive \
             -destination "generic/platform=iOS" \
